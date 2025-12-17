@@ -1,0 +1,19 @@
+{
+    "name": "blockchain-mern-demo",
+    "version": "1.0.0",
+    "description": "Blockchain payment gateway + mini marketplace demo",
+    "main": "hardhat.config.js",
+    "scripts": {
+        "test": "echo \"No tests yet\"",
+        "compile": "npx hardhat compile",
+        "deploy": "npx hardhat run scripts/deploy.js"
+    },
+    "devDependencies": {
+        "@nomicfoundation/hardhat-toolbox": "^3.0.0",
+        "dotenv": "^17.2.3",
+        "hardhat": "^2.27.1"
+    },
+    "dependencies": {
+        "@openzeppelin/contracts": "^5.4.0"
+    }
+}
